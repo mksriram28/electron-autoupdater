@@ -1,0 +1,25 @@
+{
+  "name": "project--4-electronjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "build":{
+    "appId":"Les_001",
+    "productName":"Auto Update App",
+    "win":{
+      "target":"nsis"
+    },
+    "directories":{
+      "output":"dist"
+    }
+  },
+
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^30.0.0"
+  }
+}
